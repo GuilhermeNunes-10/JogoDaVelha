@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="velha.css">
+  <link rel="icon" href="img/JogoDaVelha.png">
+</head>
+
+<body>
+  <h1>Jogo da velha</h1>
+
+  <div id="dark"><button class="escuro" id="modo-escuro">Modo escuro</button></div>
+
+  <table>
+   
+    <form action="">
+      <tr>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+      </tr>
+      <tr>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+      </tr>
+      <tr>
+        <td class="td"></td>
+        <td class="td"></td>
+        <td class="td"></td>
+      </tr>
+    </form>
+  </table>
+
+  <div>
+    <p class="vez">É a vez do jogador <span id="jogador-vez">X</span></p>
+
+    <p id="resultado"></p>
+
+    <div class="reinicia">
+      <button class="reset" id="reset">Reiniciar</button>
+    </div>
+  </div>
+
+  <script src="jogo.js"></script>
+</body>
+
+</html>
